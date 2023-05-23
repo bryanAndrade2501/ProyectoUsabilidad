@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-usabilidad",
+  "version": "1.0.0",
+  "description": "Proyecto de usabilidad",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanAndrade2501/ProyectoUsabilidad.git"
+  },
+  "keywords": [
+    "usabilidad",
+    "novicompu"
+  ],
+  "author": "Bryan Andrade, Oscar Cunduri, Jairo Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanAndrade2501/ProyectoUsabilidad/issues"
+  },
+  "homepage": "https://github.com/bryanAndrade2501/ProyectoUsabilidad#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
