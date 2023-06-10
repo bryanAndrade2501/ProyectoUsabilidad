@@ -1,58 +1,227 @@
 const products = [
     {
-        "id": "0",
-        "productName": "Huawei MateBook X Pro",
-        "image": "huawei-matebook-pro.jpg",
-        "cpu": "Intel Core i7, 8th generation",
-        "ram": "8GB",
-        "storage": "512 GB SSD",
-        "screen": "13.9-inch, 3K (3,000 x 2,080)",
-        "price": "1499",
-        "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+        "id": 0,
+        "category": "celulares",
+        "productName": "INFINIX SMART 7 (4+64GB) ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
     },
     {
-        "id": "1",
-        "productName": "Apple Macbook Pro 2018",
-        "image": "macbook-pro-15.jpg",
-        "cpu": "6-core Intel i7, 8th generation",
-        "ram": "16GB",
-        "storage": "1TB GB SSD",
-        "screen": "15-inch Retina display",
-        "price": "3199",
-        "description": "If you're after the latest and greatest laptop from Apple, we suggest you look into the 2018 model of the 15-inch MacBook Pro with Touch Bar. The headline Touch Bar – a thin OLED display at the top of the keyboard which can be used for any number of things, whether that be auto-suggesting words as you type or offering Touch ID so you can log in with just your fingerprint – is of course included. It's certainly retained Apple's sense of style, but it comes at a cost. This is a pricey machine, so you may want to consider one of the Windows alternatives. But, if you're a steadfast Apple diehard, this is definitely the best laptop for you!"
+        "id": 1,
+        "category": "celulares",
+        "productName": "TECNO POVA 4 LG7N 8GB + 256GB ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
     },
     {
-        "id": "2",
-        "productName": "Dell XPS 13",
-        "image": "dell-xps-13.png",
-        "cpu": "Intel Core i7, 8th generation",
-        "ram": "16GB",
-        "storage": "512 GB SSD",
-        "screen": "13.3-inch, Full HD",
-        "price": "1199",
-        "description": "The Dell XPS 13 is an absolutely brilliant laptop. The 2018 version rocks an 8th-generation Intel Core i5 or i7 processor and a bezel-less ‘Infinity Edge’ display, this Dell XPS 13 continues to be the most popular Windows laptop in the world. What’s more, there’s a wide range of customization options, so you can really make the Dell XPS 13 the best laptop for your needs. "
+        "id": 2,
+        "category": "celulares",
+        "productName": "CELULAR INFINIX HOT 20i X665E 7GB (4GB+3GB)+128GB ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
     },
     {
-        "id": "3",
-        "productName": "Asus ZenBook Flip S",
-        "image": "asus-zenbook-flip-s.jpg",
-        "cpu": "Intel Core i7, 8th generation",
-        "ram": "16GB",
-        "storage": "512 GB SSD",
-        "screen": "13.3-inch, Full HD touchscreen",
-        "price": "1399",
-        "description": "Asus has struck gold with its new refresh of its ZenBook Flip S 2-in-1 laptop. With a new Kaby Lake R 8th-generation processor powering the device, plenty of RAM and a super-fast PCIe SSD in certain models, this is an absolutely stunning laptop. Its 2-in-1 design means you can use it as both a laptop and a tablet, and while it's not as affordable as some other machines, if you have the budget you'll be really happy with this fantastic device."
+        "id": 3,
+        "category": "celulares",
+        "productName": "Celular Infinix Note 30 pro 8+256 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
     },
     {
-        "id": "4",
-        "productName": "Samsung Notebook 9",
-        "image": "samsung-notebook-9.jpg",
-        "cpu": "Intel Core i7, 8th generation",
-        "ram": "16GB",
-        "storage": "256 GB SSD",
-        "screen": "15-inch, Full HD",
-        "price": "1499",
-        "description": "While it may not have the best keyboard in the world, the Samsung Notebook 9 is still one of the best laptops you can buy in 2018. Packed with more horsepower than some MacBook Pros,but at a much lower price, Samsung has crafted a laptop that has just as much substance as it does style. Plus, on top of its killer specs, it’s lightweight and thin, making this one of the most portable 15-inch laptops you can buy today."
+        "id": 4,
+        "category": "celulares",
+        "productName": "HONOR X8A 8+128GB ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
+    },
+    {
+        "id": 5,
+        "category": "celulares",
+        "productName": "Celular Infinix NOTE 12 8GB + 256GB X670 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
+    },
+    {
+        "id": 6,
+        "category": "celulares",
+        "productName": "Celular Samsung S23 ULTRA SM-S918B 512GB ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
+    },
+    {
+        "id": 7,
+        "category": "celulares",
+        "productName": "Celular Xiaomi Redmi note 11s 6+128gb ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
+        "price": "$235,86"
+    },
+    {
+        "id": 8,
+        "category": "tablets",
+        "productName": "Tablet Kids Quad core 1gb, 16gb, doble cámara, ESTUCHE ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 9,
+        "category": "tablets",
+        "productName": "Tablet Amazon fire HD 2022 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 10,
+        "category": "tablets",
+        "productName": "Samsung Galaxy Tab S6 Lite 64gb 4gb Ram WIFI ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 11,
+        "category": "tablets",
+        "productName": "Tablet Amazon Fire 8 pulg, 32g, modelo 2020 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 12,
+        "category": "tablets",
+        "productName": "Samsung Galaxy Tab S6 Lite 128gb 4gb Ram WIFI ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 13,
+        "category": "tablets",
+        "productName": "Tablet Xiaomi PAD 5, 256gb, 6gb, WIFI ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 14,
+        "category": "tablets",
+        "productName": "Amazon Fire Kids Edition 2019, 16gb, rosado y azul ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 15,
+        "category": "tablets",
+        "productName": "Tablet Amazon Fire 10 2021, 32gb ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
+        "price": "$149,00"
+    },
+    {
+        "id": 16,
+        "category": "computadoras",
+        "productName": "Laptop acer Intel, 128gb+4gb+ 15.6 pulg, huella, w11 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 17,
+        "category": "computadoras",
+        "productName": "IMPRESORA EPSON L3250 110V REEMPLAZO DE L3150 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 18,
+        "category": "computadoras",
+        "productName": "IMPRESORA EPSON L3210 110V MULTIFUNCIÓN NUEVO MODELO ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 19,
+        "category": "computadoras",
+        "productName": "IMPRESORA EPSON L4260 MULTIFUNCIÓN REEMPLAZO DE L4160 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 20,
+        "category": "computadoras",
+        "productName": "Monitor 19 pulgadas usado ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 21,
+        "category": "computadoras",
+        "productName": "Laptop HP Core i5 12va, 512gb, 16gb, 15.6hd, huella ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 22,
+        "category": "computadoras",
+        "productName": "DISCO SÓLIDO 240GB ADATA ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 23,
+        "category": "computadoras",
+        "productName": "Monitor Lg 20 Pulgadas, Hdmi, 1366 X 768 Led, Ip, 20mk400 ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/156899-500-auto?v=1772751953&width=500&height=auto&aspect=true",
+        "price": "$109,00"
+    },
+    {
+        "id": 24,
+        "category": "hogar",
+        "productName": "TRAPEADOR MAGICO CON ESPRIMIDOR 360 LAVADA Y SECADO ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 25,
+        "category": "hogar",
+        "productName": "ESENCIA PARA HUMIDIFICADOR AGRADABLE FRAGANCIA ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 26,
+        "category": "hogar",
+        "productName": "Robot aspiradora ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 27,
+        "category": "hogar",
+        "productName": "SILLA EIFFEL ESTILO RETRO DE MADERA, MESA, BAR ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 28,
+        "category": "hogar",
+        "productName": "Dispensador de agua eléctrico ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 29,
+        "category": "hogar",
+        "productName": "Cinta doble faz 1 metros ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 30,
+        "category": "hogar",
+        "productName": "Herramienta multifuncional de cocina ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
+    },
+    {
+        "id": 31,
+        "category": "hogar",
+        "productName": "Sellador de fundas ",
+        "image": "https://novicompu.vtexassets.com/arquivos/ids/160096-500-auto?v=1772563180&width=500&height=auto&aspect=true",
+        "price": "$2,99"
     }
 ]
 
