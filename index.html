@@ -23,12 +23,12 @@
 
     const Products = (props) => {
       return `
-        <div class="product col-lg-3 col-md-4 col-sm-6">
+        <div class="product col-lg-3 col-md-4 col-sm-6  d-flex p-2 align-items-center flex-column">
             <img src=${props.image}>
             <h2>${props.productName}</h2>
             <h3>${props.cpu}, ${props.ram}, ${props.storage}</h3>
             <h4>${props.price}</h4>
-            <button>Añadir al carrito</button>
+            <button type="button" class="btn btn-primary">Añadir al carrito</button>
         </div>
       `
     }
