@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let slideIndex = 0;
   const images = [
-    "/assets/images/promocion_de_celulares.png",
-    "/assets/images/metodos_de_pago.jpg",
+    "assets/images/promocion_de_celulares.png",
+    "assets/images/metodos_de_pago.jpg",
   ];
 
   const description = ["promociones de celulares", "metodos de pago"];
