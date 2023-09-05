@@ -360,3 +360,12 @@ footer {
     /* Una sola columna */
   }
 }
+
+/* Colores de fondo */
+.bg-skyblue {
+  background-color: #338cb0;
+}
+
+.bg-lightgreen {
+  background-color: #10bd58;
+}

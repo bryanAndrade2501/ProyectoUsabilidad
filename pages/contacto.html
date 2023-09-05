@@ -14,7 +14,9 @@
 
 <body>
     <header>
-        <img src="../assets/images/NovicompuLogo.png" alt="Logo de Novicompu" />
+        <a href="../index.html" class="btn" tabindex="0">
+            <img src="../assets/images/NovicompuLogo.png" alt="Logo de Novicompu" />
+        </a>
 
         <form class="search-form" action="#">
             <input type="text" id="search-input" placeholder="Buscar en Novicompu.com" tabindex="1" />
@@ -24,23 +26,23 @@
         </form>
 
         <nav>
-            <ul>
-                <li>
+            <ul role="menubar">
+                <li role="menuitem">
                     <a href="#" style="color: #f71963" tabindex="3">
                         <i class="fas fa-tags"></i> Ofertas Junio
                     </a>
                 </li>
-                <li>
+                <li role="menuitem">
                     <a href="#" tabindex="4">
                         <i class="fas fa-list"></i> Categorías
                     </a>
                 </li>
-                <li>
-                    <a href="pages/contacto.html" tabindex="5">
+                <li role="menuitem">
+                    <a href="#" tabindex="5">
                         <i class="fas fa-envelope"></i> Contactos
                     </a>
                 </li>
-                <li>
+                <li role="menuitem">
                     <a href="#" tabindex="6">
                         <i class="fas fa-store"></i> Tienda
                     </a>
@@ -48,62 +50,84 @@
             </ul>
         </nav>
 
-        <div class="user-cart-icons">
-            <a href="pages/login.html" tabindex="7">
-                <i class="fas fa-user"></i>
+
+        <div class="user-cart-icons" role="navigation" aria-label="Iconos de usuario y carrito">
+            <a href="login.html" tabindex="7" role="link" aria-label="Iniciar sesión">
+                <i class="fas fa-user" aria-hidden="true"></i>
             </a>
-            <i class="fas fa-shopping-cart" tabindex="8"></i>
+            <i class="fas fa-shopping-cart" tabindex="8" role="button" aria-label="Carrito de compras"></i>
         </div>
+
     </header>
     <main class="container d-flex flex-column">
-        <h1>Contáctenos</h1>
-        <div class="d-flex flex-column rounded p-4 my-3" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);">
+        <h1 tabindex="9">Contáctenos</h1>
+        <div class="d-flex flex-column rounded p-4 my-3" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);"
+            aria-label="Formulario de contacto" tabindex="10">
             <h4 class="text-dark fw-bold">Contacto</h4>
             <form class="align-self-center w-50">
                 <div class="mb-3">
                     <label for="inputNombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" placeholder="Ingrese su nombre" id="inputNombre">
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre" id="inputNombre"
+                        tabindex="11">
                 </div>
                 <div class="mb-3">
                     <label for="inputEmail1" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" placeholder="Ingrese su email" id="inputEmail1">
+                    <input type="email" class="form-control" placeholder="Ingrese su email" id="inputEmail1"
+                        tabindex="12">
                 </div>
                 <div class="mb-3">
                     <label for="floatingTextarea" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" placeholder="Ingrese su mensaje aqui..."
-                        id="floatingTextarea"></textarea>
+                    <textarea class="form-control" placeholder="Ingrese su mensaje aquí..." id="floatingTextarea"
+                        tabindex="13"></textarea>
                 </div>
 
-                <button type="submit" class="py-2 btn btn-primary w-100">Enviar</button>
+                <button type="submit" class="py-2 btn btn-primary w-100" tabindex="14">Enviar</button>
             </form>
         </div>
-        <div class="d-flex flex-column rounded p-4 my-3" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);">
+        <div class="d-flex flex-column rounded p-4 my-3" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);"
+            tabindex="15" aria-label="Seccion de sucursales">
             <h4 class="text-dark fw-bold">Sucursales</h4>
             <div class="d-flex">
-                <p class="w-75">Mire nuestras tiendas más cercanas y visítenos para ver todas nuestras ofertas</p>
-                <button class="py-2 btn rounded-5 btn-primary">Mirar todas las tiendas</button>
+                <p class="w-75" tabindex="16">Mire nuestras tiendas más cercanas y visítenos para ver todas nuestras
+                    ofertas</p>
+                <button class="py-2 btn rounded-5 btn-primary" tabindex="17">Mirar todas las tiendas</button>
             </div>
         </div>
-        <div class="d-flex flex-column rounded p-4 mt-3 mb-5" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);">
+        <div class="d-flex flex-column rounded p-4 mt-3 mb-5" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);"
+            tabindex="18" aria-label="Seccion de redes sociales">
             <h4 class="text-dark fw-bold">Redes Sociales</h4>
             <div class="sociales pt-3 d-flex justify-content-around ">
-                <button class="text-center border-0 bg-transparent">
+                <button class="text-center border-0 bg-transparent" tabindex="19">
                     <i class="fab fa-facebook-f text-dark "></i>
                     <p class="fs-5">Facebook</p>
                 </button>
-                <button class="text-center border-0 bg-transparent">
+                <button class="text-center border-0 bg-transparent" tabindex="20">
                     <i class="fab fa-instagram text-dark 2xl"></i>
                     <p class="fs-5">Instagram</p>
                 </button>
 
-                <button class="text-center border-0 bg-transparent">
+                <button class="text-center border-0 bg-transparent" tabindex="21">
                     <i class="fab fa-whatsapp text-dark 2xl"></i>
                     <p class="fs-5">Whatsapp</p>
                 </button>
-
             </div>
         </div>
     </main>
+
+    <div class="d-flex justify-content-between align-items-center bg-lightgreen px-3" tabindex="22"
+        aria-label="Seccion de sucripción a noticias">
+        <img src="../assets/images/img_suscription.svg" alt="Imagen de suscripción"></img>
+        <form action="" class="d-flex gap-4 w-50 justify-content-center">
+            <input type="email" class="form-control w-50" placeholder="Ingrese su email" id="inputEmail" tabindex="23"
+                aria-label="Correo electrónico">
+            <button type="submit" class="btn btn-primary" tabindex="24">Suscribir</button>
+        </form>
+        <div tabindex="25">
+            <p class="fw-bold fs-4 m-0 text-dark">MÁS OFERTAS!</p>
+            <p class="m-0 text-dark">Recibe promociones exclusivas</p>
+        </div>
+    </div>
+
     <footer>
         <div>
             <div class="footer-logo">
@@ -129,21 +153,22 @@
                 <div class="container-info">
                     <div class="item">
                         <p tabindex="34">Pago seguro</p>
-                        <img title="" sizes="" srcset="" alt="Pago seguro" loading="lazy" crossorigin="anonymous"
+                        <img title="Pago seguro" sizes="" srcset="" alt="Pago seguro" loading="lazy"
+                            crossorigin="anonymous"
                             data-src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/logo_paimentez___d7d3453c637678822c89435c5101ecc0.svg"
                             src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/logo_paimentez___d7d3453c637678822c89435c5101ecc0.svg" />
                     </div>
                     <div class="item">
                         <p tabindex="35">Redes Sociales</p>
                         <div class="socials">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-instagram"></i>
+                            <a href="#" tabindex="36"><i class="fab fa-facebook-f" aria-label="Facebook"></i></a>
+                            <a href="#" tabindex="37"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
                         </div>
                     </div>
                     <div class="item">
-                        <p tabindex="36">Aceptamos todas las tarjetas de crédito</p>
-                        <img title="" sizes="" srcset="" alt="Tarjetas admitidas para pagar" loading="lazy"
-                            crossorigin="anonymous"
+                        <p tabindex="38">Aceptamos todas las tarjetas de crédito</p>
+                        <img title="Tarjetas admitidas para pagar" sizes="" srcset=""
+                            alt="Tarjetas admitidas para pagar" loading="lazy" crossorigin="anonymous"
                             data-src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/icon_tarjetas___6128b37c16c159363529a566301cc6f0.svg"
                             src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/icon_tarjetas___6128b37c16c159363529a566301cc6f0.svg" />
                     </div>
@@ -151,6 +176,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
