@@ -369,3 +369,19 @@ footer {
 .bg-lightgreen {
   background-color: #10bd58;
 }
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  /* Posición fuera de la vista, pero aún accesible */
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  z-index: 999;
+}
+
+.skip-link:focus {
+  top: 0;
+  /* Muestra el enlace cuando se enfoca */
+}
