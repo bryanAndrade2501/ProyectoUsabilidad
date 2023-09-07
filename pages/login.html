@@ -4,32 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Novicompu</title>
-    <link rel="stylesheet" href="../css/index.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
-    
         <main class="container d-flex flex-column">
-          <div class="text-center pt-3 pb-4">
+          <div class="logo-tam mx-auto text-center pt-2 pb-4 ">
             <a href="../index.html">  
               <img src="../assets/images/NovicompuLogo.png" alt="Logo de la empresa Novicompu">
             </a>
           </div>
           <div class="d-flex contenedor-t flex-column mx-auto rounded" style="box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);">
-            <h2 class="text-dark fw-bold fs-1 m-5 text-center" id="main-content" role="article">Iniciar Sesión</h2>
+            <h2 class="text-dark fw-bold fs-1 m-4 text-center" id="main-content" role="article">Iniciar Sesión</h2>
             <form class="align-self-center w-50" aria-label="Formulario de contacto">
                 <div class="mb-3 text-center">
-                  <button type="button"  class="btn btn-light btn-outline-dark mb-3 btn-lg w-100">
+                  <button type="button"  class="btn btn-light btn-hover mb-3 btn-lg w-100">
                     <img src="../assets/images/logo-Google.png" alt="Logo de Google" class="mr-2" width="20" height="20">
-                    Conectarse con Google
+                    <span class="span-redes">Conectarse con Google</span>
                 </button>
                 </div>
-                <div class="mb-3 text-center">
-                  <button type="button"  class="btn btn-light btn-lg mb-3 w-100 ">
+                <div class="mb-3">
+                  <button type="button"  class="btn btn-light btn-lg btn-hover mb-3 w-100 ">
                     <img src="../assets/images/logo-Apple.png" alt="Logo de Google" class="mr-2" width="20" height="20">
-                    Conectarse con Apple
+                    <span>Conectarse con Apple</span>
                 </button>
                 </div>
                 <div class="pb-3">
@@ -47,10 +47,15 @@
                 <button type="submit" class="py-2 btn btn-primary w-100 mb-4">Continuar</button>
                 <button type="button" class="py-2 btn btn-primary w-100 mb-4">Olvidaste tu contraseña?</button>
 
-                <h6 class="pb-3">Nuevo en Novicompu? <a href="">Crear una cuenta</a></h6>
+                <h6 class="pb-3">Nuevo en Novicompu? <a href="" style="text-decoration: none;">Crear una cuenta</a></h6>
               </form> 
         </div>
+          <div class="flex-column div-footer mx-auto">
+            <a href="" class="a-externo">Términos y condiciones</a>
+          <a href="" class="a-externo">Política de privacidad</a>
+          </div>
         </main>
+
 
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
