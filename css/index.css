@@ -187,6 +187,9 @@ aside img {
   aside {
     display: none;
   }
+  body{
+    min-width: 320px;
+  }
 }
 
 footer {
@@ -384,4 +387,36 @@ footer {
 .skip-link:focus {
   top: 0;
   /* Muestra el enlace cuando se enfoca */
+}
+
+
+/*Login*/
+.separator {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000; /* Cambia el color de la línea si lo deseas */
+  margin: 0 10px; /* Ajusta el espacio entre la línea y la "O" */
+}
+
+.circle {
+  width: 30px; /* Ajusta el tamaño de la "O" según tus preferencias */
+  height: 30px;
+  border: 1px solid #000; /* Cambia el estilo del borde si lo deseas */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-t{
+  width: 600px;
+}
+
+.btn-light{
+  border-color: black;  
 }
