@@ -11,14 +11,14 @@
 
 <body>
   <header>
-    <a href="#" class="btn" tabindex="0">
+    <a href="#" class="btn">
       <img src="assets/images/NovicompuLogo.png" alt="Logo de Novicompu" />
     </a>
 
-
     <form class="search-form" action="#">
-      <input type="text" id="search-input" placeholder="Buscar en Novicompu.com" tabindex="1" />
-      <button class="button" type="submit" aria-label="Buscar" tabindex="2">
+      <label for="search-input" class="sr-only">Buscar en Novicompu.com</label>
+      <input type="text" id="search-input" placeholder="Buscar en Novicompu.com" />
+      <button class="button" type="submit" aria-label="Buscar">
         <i class="fas fa-search search-icon"></i>
       </button>
     </form>
@@ -26,22 +26,22 @@
     <nav>
       <ul>
         <li>
-          <a href="#" style="color: #f71963" tabindex="3">
+          <a href="#" style="color: #f71963">
             <i class="fas fa-tags"></i> Ofertas Junio
           </a>
         </li>
         <li>
-          <a href="#" tabindex="4">
+          <a href="#">
             <i class="fas fa-list"></i> Categorías
           </a>
         </li>
         <li>
-          <a href="pages/contacto.html" tabindex="5">
+          <a href="pages/contacto.html">
             <i class="fas fa-envelope"></i> Contactos
           </a>
         </li>
         <li>
-          <a href="#" tabindex="6">
+          <a href="#">
             <i class="fas fa-store"></i> Tienda
           </a>
         </li>
@@ -49,10 +49,10 @@
     </nav>
 
     <div class="user-cart-icons">
-      <a href="pages/login.html" tabindex="7">
+      <a href="pages/login.html">
         <i class="fas fa-user"></i>
       </a>
-      <i class="fas fa-shopping-cart" tabindex="8"></i>
+      <i class="fas fa-shopping-cart"></i>
     </div>
   </header>
 
@@ -61,13 +61,13 @@
       <img id="sliderImg" src="assets/images/metodos_de_pago.jpg" alt="Slider con imagen de promoción y precio" />
 
       <div class="controls">
-        <button class="prevBtn" aria-label="Imagen anterior" tabindex="9">&#10094;</button>
-        <button class="nextBtn" aria-label="Siguiente imagen" tabindex="10">&#10095;</button>
+        <button class="prevBtn" aria-label="Imagen anterior">&#10094;</button>
+        <button class="nextBtn" aria-label="Siguiente imagen">&#10095;</button>
       </div>
     </section>
 
     <aside>
-      <img src="assets/images/novicompuOfertasmes.webp" alt="Imagen de ofertas del mes" tabindex="11" />
+      <img src="assets/images/novicompuOfertasmes.webp" alt="Imagen de ofertas del mes" />
     </aside>
   </main>
 
@@ -77,38 +77,36 @@
 
       <div style="display: flex; align-items: center; justify-content: space-evenly;">
         <div style="padding: 1rem;">
-          <img src="assets/images/animales-y-mascotas-novicompu.png" alt="Categoria de animales y mascotas"
-            tabindex="12" />
-          <h3 tabindex="13">Animales y mascotas</h3>
+          <img src="assets/images/animales-y-mascotas-novicompu.png" alt="Categoria de animales y mascotas" />
+          <h3>Animales y mascotas</h3>
         </div>
         <div>
-          <img src="assets/images/computadoras-novicompu.png" alt="Categoria de computadoras" tabindex="14" />
-          <h3 tabindex="15">Computadoras</h3>
+          <img src="assets/images/computadoras-novicompu.png" alt="Categoria de computadoras" />
+          <h3>Computadoras</h3>
         </div>
         <div>
-          <img src="assets/images/relojes-smartwatchs-y-smartbands-novicompu.png"
-            alt="Categoria de relojes y smartwatch" tabindex="16" />
-          <h3 tabindex="17">Relojes</h3>
+          <img src="assets/images/relojes-smartwatchs-y-smartbands-novicompu.png" alt="Categoria de relojes y smartwatch" />
+          <h3>Relojes</h3>
         </div>
         <div>
-          <img src="assets/images/televisores-novicompu.png" alt="Categoria de televisores" tabindex="18" />
-          <h3 tabindex="19">Televisores</h3>
+          <img src="assets/images/televisores-novicompu.png" alt="Categoria de televisores" />
+          <h3>Televisores</h3>
         </div>
         <div>
-          <img src="assets/images/consolas-novicompu.png" alt="Categoria de consolas" tabindex="20" />
-          <h3 tabindex="21">Consolas</h3>
+          <img src="assets/images/consolas-novicompu.png" alt="Categoria de consolas" />
+          <h3>Consolas</h3>
         </div>
       </div>
     </div>
 
     <div style="text-align: center;">
-      <h2 tabindex="22">Celulares</h2>
-      <div class="cell_phone" tabindex="23"></div>
+      <h2>Celulares</h2>
+      <div class="cell_phone"></div>
     </div>
 
     <div style="text-align: center;">
-      <h2 tabindex="24">Recientemente accedido</h2>
-      <div class="user_preferences" tabindex="25"></div>
+      <h2>Recientemente accedido</h2>
+      <div class="user_preferences"></div>
     </div>
   </section>
 
@@ -117,18 +115,18 @@
       <div class="footer-logo">
         <img
           src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/logo-footer___746ed8600f49bc320e406a7dd0d18a8e.png"
-          alt="Logo de Novicompu" tabindex="26" />
+          alt="Logo de Novicompu" />
       </div>
 
       <div class="footer-links">
         <ul>
-          <li><a href="/contacto" tabindex="27">Contactos</a></li>
-          <li><a href="/tiendas" tabindex="28">Nuestras tiendas</a></li>
-          <li><a href="/account" tabindex="29">Mi cuenta</a></li>
-          <li><a href="/account#/orders" tabindex="30">Mis pedidos</a></li>
-          <li><a href="/terminos_y_condiciones" tabindex="31">Términos y condiciones</a></li>
-          <li><a href="/politica-de-privacidad" tabindex="32">Política de privacidad</a></li>
-          <li><a href="/preguntas-frecuentes" tabindex="33">Preguntas frecuentes</a></li>
+          <li><a href="/contacto">Contactos</a></li>
+          <li><a href="/tiendas">Nuestras tiendas</a></li>
+          <li><a href="/account">Mi cuenta</a></li>
+          <li><a href="/account#/orders">Mis pedidos</a></li>
+          <li><a href="/terminos_y_condiciones">Términos y condiciones</a></li>
+          <li><a href="/politica-de-privacidad">Política de privacidad</a></li>
+          <li><a href="/preguntas-frecuentes">Preguntas frecuentes</a></li>
         </ul>
       </div>
     </div>
@@ -137,20 +135,20 @@
       <div class="continer-footer">
         <div class="container-info">
           <div class="item">
-            <p tabindex="34">Pago seguro</p>
+            <p>Pago seguro</p>
             <img title="" sizes="" srcset="" alt="Pago seguro" loading="lazy" crossorigin="anonymous"
               data-src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/logo_paimentez___d7d3453c637678822c89435c5101ecc0.svg"
               src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/logo_paimentez___d7d3453c637678822c89435c5101ecc0.svg" />
           </div>
           <div class="item">
-            <p tabindex="35">Redes Sociales</p>
+            <p>Redes Sociales</p>
             <div class="socials">
               <i class="fab fa-facebook-f"></i>
               <i class="fab fa-instagram"></i>
             </div>
           </div>
           <div class="item">
-            <p tabindex="36">Aceptamos todas las tarjetas de crédito</p>
+            <p>Aceptamos todas las tarjetas de crédito</p>
             <img title="" sizes="" srcset="" alt="Tarjetas admitidas para pagar" loading="lazy" crossorigin="anonymous"
               data-src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/icon_tarjetas___6128b37c16c159363529a566301cc6f0.svg"
               src="https://novicompu.vtexassets.com/assets/vtex/assets-builder/novicompu.novicompu-store/3.0.0-beta.39/otros/icon_tarjetas___6128b37c16c159363529a566301cc6f0.svg" />
@@ -159,7 +157,6 @@
       </div>
     </div>
   </footer>
-
 
   <script type="module" src="js/menu_principal.js"></script>
 </body>
