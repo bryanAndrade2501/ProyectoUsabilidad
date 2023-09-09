@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(nextSlide, 3000);
 });
 
-//CARGA DINÁMICA DE PRODUCTOS
+//CARGA DINÁMICA DE PRODUCTOS.
 
 function crearProducto(producto) {
   const productoHTML = `
       <div class="product">
-          <img src="${producto.image}" alt="Imagen del producto: ${producto.productName} perteneciente a la categoría: ${producto.category}" />
+          <img src="${producto.image}" alt="Imagen del producto: ${producto.productName} perteneciente a la categoría de ${producto.category}" />
           <h3>${producto.productName}</h3>
           <p>Precio: $${producto.price}</p>
           <div>
