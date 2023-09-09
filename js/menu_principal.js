@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function crearProducto(producto) {
   const productoHTML = `
       <div class="product">
-          <img src="${producto.image}" alt="Imagen del producto: ${producto.productName} perteneciente a la categoría de ${producto.category}" />
+          <img src="${producto.image}" alt="Imagen del producto: ${producto.productName} de ${producto.category}" />
           <h3>${producto.productName}</h3>
           <p>Precio: $${producto.price}</p>
           <div>
