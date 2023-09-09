@@ -323,13 +323,14 @@ footer {
 
 /* Estilos para el botón de "Añadir al carrito" */
 .btn-cart {
-  background-color: #007bff;
+  background-color: #0F3E99;
   color: #fff;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
+  border: transparent;
 }
 
 .btn-cart:hover {
