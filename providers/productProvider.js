@@ -16,7 +16,7 @@ const products = [
     {
         "id": 2,
         "category": "celulares",
-        "productName": "CELULAR INFINIX HOT 20i X665E 7GB (4GB+3GB)+128GB ",
+        "productName": "CELULAR INFINIX HOT 20i 7GB RAM 128GB ",
         "image": "https://novicompu.vtexassets.com/arquivos/ids/166155-500-auto?v=1772711018&width=500&height=auto&aspect=true",
         "price": "$235,86"
     },
@@ -58,7 +58,7 @@ const products = [
     {
         "id": 8,
         "category": "tablets",
-        "productName": "Tablet Kids Quad core 1gb, 16gb, doble cámara, ESTUCHE ",
+        "productName": "Tablet Kids Quad core 1gb, 16gb",
         "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
         "price": "$149,00"
     },
@@ -72,21 +72,21 @@ const products = [
     {
         "id": 10,
         "category": "tablets",
-        "productName": "Samsung Galaxy Tab S6 Lite 64gb 4gb Ram WIFI ",
+        "productName": "Samsung Galaxy S6 Lite 64gb 4gb",
         "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
         "price": "$149,00"
     },
     {
         "id": 11,
         "category": "tablets",
-        "productName": "Tablet Amazon Fire 8 pulg, 32g, modelo 2020 ",
+        "productName": "Tablet Amazon Fire 8plg, 32g",
         "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
         "price": "$149,00"
     },
     {
         "id": 12,
         "category": "tablets",
-        "productName": "Samsung Galaxy Tab S6 Lite 128gb 4gb Ram WIFI ",
+        "productName": "Galaxy Tab S6 Lite 128gb 4gb Ra ",
         "image": "https://novicompu.vtexassets.com/arquivos/ids/161679-500-auto?v=1772753196&width=500&height=auto&aspect=true",
         "price": "$149,00"
     },
