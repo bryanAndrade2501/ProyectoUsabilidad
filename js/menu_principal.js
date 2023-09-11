@@ -40,7 +40,7 @@ function crearProducto(producto) {
       <div class="product">
           <img src="${producto.image}" alt="Imagen del producto: ${producto.productName} de ${producto.category}" />
           <h3 tabindex="0">${producto.productName}</h3>
-          <p>Precio: $${producto.price}</p>
+          <p>Precio: ${producto.price}</p>
           <div>
           <button class="btn-cart">Añadir al carrito</button>
           <button class="btn-favorite" aria-label="Añadir a favoritos"><i class="fas fa-heart" style="color: #f71963;"></i></button>
